@@ -1,0 +1,10 @@
+flask
+gunicorn
+numpy
+pillow
+opencv-python
+torch
+torchvision
+tensorflow
+scikit-image
+git-lfs
