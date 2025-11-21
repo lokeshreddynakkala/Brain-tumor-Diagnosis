@@ -1,0 +1,13 @@
+train: /mnt/c/Users/TruProjects/Desktop/Truprojects/24-25/Yolo/24/yolov9/train/images
+val: /mnt/c/Users/TruProjects/Desktop/Truprojects/24-25/Yolo/24/yolov9/valid/images
+
+
+nc: 4
+names: ['glioma', 'meningioma', 'no-tumor', 'pituitary']
+
+roboflow:
+  workspace: brain-tumor-tjnxv
+  project: brain-tumor-fzzwm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/brain-tumor-tjnxv/brain-tumor-fzzwm/dataset/1

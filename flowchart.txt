@@ -1,0 +1,101 @@
+Notebook
+-------------
+
+Classification
+---------------
+
+1. Importing the Packages
+2. Exploring the Datasets
+Brain Tumor Detection
+3. Image Data Augmentation
+	- Re-scaling the Image
+	- Shear Transformation
+	- Zooming the Image
+	- Horizontal Flip 
+	- Reshaping the Image 
+4. Function for calculating the Recall, Precision and F1 Score
+5. Defining the EarlyStopping to avoid either Under/Over Fitting
+6. Calling the Model
+
+    SWIN 
+    CCT
+    EANet
+    VGG16
+    VGG19
+    Inception V3
+    ResNet50
+    Inception ResNetV2
+    Xception
+    Ensemble Model - IVX16
+    NASNetMobile + NASNetLarge
+
+7. Building and Training the model  
+8. Dumping the best model for classifying the abnormalities further
+
+
+
+
+Detection
+----------
+
+9. Importing the packages
+10. Exploring the dataset 
+	- Reading the image
+	- plotting the image
+11. Image Processing
+	- converting to blob object
+	- defining the class
+	- declaring the bounding box
+	- convert the array to a numpy array
+12. Loading the pre-trained model
+	- reading the network layers
+	- extract the output layers
+13. Image processing
+	- appending the image - annotation file and images
+	- converting bgr to rgb
+	- creating the mask
+	- resizing the image
+14. Data Augmentation
+	- randoming the image
+	- rotating the image
+	- transforming the image
+15. Installing the packages required 
+16. Processing the Data based on Yolo family
+17. Building the model 
+
+	- Yolo v5x6
+	- Yolo v5s6
+	- Yolo v8n
+	- Yolo v9n
+		
+18. Training the model
+19. Dumping the best model for detecting the abnormalities further
+
+
+FrontEnd
+--------
+
+20. Frontend is developed with help of Flask Framework, along with Registration and Login setup with support of Sqlite DB
+21. For the frontend we used the data for classifying and detecting
+22. User uploads an image
+	- Classification
+	- Detection
+23. The given input is preprocessed for classifying and detecting
+24. Trained model is used for classifying and detecting
+25. Final outcome is displayed through frontend
+
+
+Extension
+----------
+
+In the base paper, the author mentioned to use different Transfer Learning models for classify the Brain tumor and detecting the brain tumor using yolo family,
+As an extension we have applied NASNetMobile + NASNetLarge for analysis the dataset, along with the we applied Yolo family for detecting the abnormalities,
+With the above As an extension we can build the front end using flask framework for user testing with authentication.
+
+
+
+
+
+
+
+
